@@ -63,7 +63,7 @@ function render(variables = {}) {
                : variables.country
            }
           </h3>
-          <ul class="position-right">
+          <ul class=${variables.socialMediaPosition}>
             <li><a href=${
               variables.twitter === null || variables.twitter === " "
                 ? (variables.twitter = "https://twitter.com/4GeeksAcademy")
